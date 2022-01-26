@@ -48,3 +48,7 @@ inputs:
     opts:
       title: "GitHup API Token"
       is_required: true
+  - GitHubRepoName:
+    opts:
+      title: "GitHub Repo name [owner/repo]"
+      is_required: true
