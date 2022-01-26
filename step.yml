@@ -9,11 +9,11 @@
 # -
 
 title: |-
-  Initiative Git Branch Synchronizer
+  Git Initiative Branch Synchronizer
 summary: |
-  Keep Dev synchronised with initiative branches
+  Keep Dev initiative branches syncronised with dev
 description: |
-  Create PR from every initiative branch to dev
+  Create PR from dev to all initiative branches
 website: https://github.com/Foodvisor/bitrise-step-initiatives-synchronizer.git
 source_code_url: https://github.com/Foodvisor/bitrise-step-initiatives-synchronizer.git
 support_url: https://github.com/Foodvisor/bitrise-step-initiatives-synchronizer/issues
@@ -46,7 +46,7 @@ toolkit:
 inputs:
   - GitHubAPIToken:
     opts:
-      title: "GitHup API Token"
+      title: "GitHub API Token"
       is_required: true
   - GitHubRepoName:
     opts:
