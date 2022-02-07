@@ -44,11 +44,11 @@ toolkit:
 
 
 inputs:
-  - GitHubAPIToken:
+  - GITHUB_API_TOKEN:
     opts:
       title: "GitHub API Token"
       is_required: true
-  - GitHubRepoName:
+  - GITHUB_REPO_NAME:
     opts:
       title: "GitHub Repo name [owner/repo]"
       is_required: true
